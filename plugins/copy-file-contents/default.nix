@@ -6,13 +6,13 @@
 
 stdenv.mkDerivation {
   pname = "yaziPlugins-copy-file-contents";
-  version = "unstable-2024-11-20";
+  version = "unstable-2024-12-20";
 
   src = fetchFromGitHub {
     owner = "AnirudhG07";
     repo = "plugins-yazi";
-    rev = "f871a9c0b9322f9882ea7613015e68f618f4e15f";
-    hash = "sha256-OSS+EWOoRumVdy2lN86jmi14tR+b0VsvfwVn5ka4GPg=";
+    rev = "11167e1860b10f885814ced0f04785ffa931d6c5";
+    hash = "sha256-djE0of7Y+IYP6/euAG4uxvZ/ch5aU/PsYBX6MN/km5s=";
   };
 
   buildPhase = ''
